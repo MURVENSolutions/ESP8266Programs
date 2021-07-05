@@ -13,18 +13,18 @@ ESP8266 small size and easy use allows programs running in microcontroller to co
 ![image](https://user-images.githubusercontent.com/6793806/124422609-2c60e780-dd81-11eb-9a5a-cb9497db145a.png)
 
 **Main Features of ESP8266 (ESP-02)**
-  -> L106 32-bit RISC microprocessor core running at 80 MHz (can be clocked double)
-  -> 64 KB of instruction RAM, 96 KB of data RAM
-  -> External QSPI flash: up to 16 MiB is supported (512 KiB to 4 MiB typically included)
-  -> IEEE 802.11 b/g/n Wi-Fi
-  -> Integrated TR switch, LNA, power amplifier and matching network
-  -> WEP or WPA/WPA2 authentication or Open
-  -> 16 GPIO pins
-  -> SPI
-  -> I²C (software implementation)
-  -> I²S interfaces with DMA (sharing pins with GPIO)
-  -> UART on dedicated pins, plus a transmit-only UART can be enabled on GPIO2
-  -> 10-bit ADC (successive approximation ADC)
+1. L106 32-bit RISC microprocessor core running at 80 MHz (can be clocked double)
+2. 64 KB of instruction RAM, 96 KB of data RAM
+3. External QSPI flash: up to 16 MiB is supported (512 KiB to 4 MiB typically included)
+4. IEEE 802.11 b/g/n Wi-Fi
+5. Integrated TR switch, LNA, power amplifier and matching network
+6. WEP or WPA/WPA2 authentication or Open
+7. 16 GPIO pins
+8. SPI
+9. I²C (software implementation)
+10. I²S interfaces with DMA (sharing pins with GPIO)
+11. UART on dedicated pins, plus a transmit-only UART can be enabled on GPIO2
+12. 10-bit ADC (successive approximation ADC)
 
 Now many vendors came up with their own development kits using ESP8266 module with USB to serial interface, GPIO pinouts and own SDK. One such variant is the NodeMCU development kit / Firmware which uses Lua scripting language (similar to C/C++). Moreover, Arduino IDE can be used for programming NodeMCU with few tweaks.
 
